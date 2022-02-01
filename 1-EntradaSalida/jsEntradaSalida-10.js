@@ -5,5 +5,14 @@ mostrar el importe con un Descuento del 25 %
 en el cuadro de texto "RESULTADO"*/
 function mostrarAumento()
 {
-	alert("ok");
+	let sueldoIngresado;
+	let porcentajeIva;
+
+	sueldoIngresado = document.getElementById('txtIdImporte').value;
+
+	sueldoIngresado = parseInt(sueldoIngresado);
+
+	porcentajeIva = sueldoIngresado - (sueldoIngresado * 0.25);
+
+	document.getElementById('txtIdResultado').value = porcentajeIva;
 }
