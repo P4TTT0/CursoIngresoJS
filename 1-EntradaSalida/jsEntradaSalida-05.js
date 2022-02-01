@@ -8,10 +8,10 @@ function mostrar()
     let edadIngresada
     let informacionPersonal
 
-    nombreIngresado = document.getElementById('txtIdNombre').value
-    edadIngresada = document.getElementById('txtIdEdad').value
+    nombreIngresado = document.getElementById('txtIdNombre').value;
+    edadIngresada = document.getElementById('txtIdEdad').value;
 
-    informacionPersonal = "Usted se llama " + nombreIngresado + " y tiene " + edadIngresada
+    informacionPersonal = "Usted se llama " + nombreIngresado + " y tiene " + edadIngresada " años"
 
 	alert(informacionPersonal);
 }
